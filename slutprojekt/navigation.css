@@ -32,7 +32,7 @@ body {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -43,7 +43,7 @@ body {
   }
   
   #navbar a.active {
-    background-color: #04AA6D;
+    background-color: darkcyan;
     color: white;
   }
   
@@ -75,8 +75,17 @@ body {
     position: relative;
   }
   .hero-btn:hover{
-    border: 1px solid #008000;
+    border: 1px solid green;
     background:	#008000;
    transition: 0.5s;
 }
 
+@media screen and( max-width: 350px) {
+body {
+  background: purple;
+  margin: 2px;
+}
+.header {
+  font-size: 14px;
+  padding:15px;}
+}
