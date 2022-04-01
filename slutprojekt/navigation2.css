@@ -6,7 +6,7 @@ body {
   .header {
     padding: 135px;
     text-align:center;
-    color: #f2f2f2;
+    color: black;
   }
 
   .header h2{
@@ -16,7 +16,7 @@ body {
       font-size: 25px;
   }
   .header {
-       background-image: url('img/odling.jpg');
+       background-image: url('#');
        background-position: center;
        background-size: cover;
        position: relative;
@@ -48,7 +48,7 @@ body {
   }
   
   .content {
-    padding: 16px;
+    padding: 199px;
   }
   
   .sticky {
@@ -78,51 +78,4 @@ body {
     border: 1px solid darkcyan;
     background:	darkcyan;
    transition: 0.5s;
-}
-.content {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 50px;
-}
-.content h1{
-  font-size: 100px;
-  font-weight: 550;
-} 
-.content p{
-color: black;
-font-size: 25px;
-font-weight: 300;
-line-height: 30px;
-padding: 10px;
-text-align: left;
-}
-
-.campus{
-width: 80%;
-margin:  auto;
-text-align: center;
-padding-top: 30px;
-}
-
-.campus-col{
-  border-radius: 10px;
-  margin-bottom: 30px;
-  overflow: normal;
-  display: flex;
-  justify-content: space-between;
-}
-.campus-col img {
-  width: 350px;
-  height: 390px;;
-
-}
-@media screen and( min-width: 350px) {
-body {
-  background: purple;
-  margin: 2px;
-}
-.header {
-  font-size: 14px;
-  padding:15px;}
-}
+  }
