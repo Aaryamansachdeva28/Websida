@@ -110,16 +110,12 @@ padding-top: 30px;
 .campus-col{
   border-radius: 10px;
   margin-bottom: 30px;
-  overflow: normal;
-  display: table-cell;
+  display: inline-block;
   justify-content: space-evenly;
-  width: 90%;
-  text-align: left;
-  font-size: 22px;
-  left: 50%;
-  transform: translate(-45%,0);
-  position: relative;
-  z-index: 1 
+  text-align: center;
+  padding-right: 30px;
+  margin-left: 2px;
+
   
 }
 .campus-col img {
