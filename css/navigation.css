@@ -106,6 +106,10 @@ text-align: left;
   max-width: 50%;
   position: relative;
 }
+
+.div-content img{
+  width: 100%;
+}
 .slider-button {
   border: none;
   display: inline-block;

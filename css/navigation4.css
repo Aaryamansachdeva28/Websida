@@ -118,10 +118,22 @@ text-align: left;
   transition: 0.3s;
   width: 50%;
   height: 200px;
-  display: table-cell;
+  display:table-cell;
   justify-content: space-evenly;
   padding-left: 8px;
+  text-align: center;
   
+}
+.test{
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: inline-block;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-right: 30px;
+  margin-left: 2px;
+
+
 }
 
 /* On mouse-over, add a deeper shadow */
